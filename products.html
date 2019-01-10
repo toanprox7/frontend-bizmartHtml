@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Products</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<!-- <link rel="stylesheet" href="./styles/style.css">
+		 -->
+		 <link rel="stylesheet" href="./styles/products.css">
+		 <link rel="stylesheet" href="./styles/header.css">
+		 <link rel="stylesheet" href="./styles/footer.css">
+		 <link rel="stylesheet" href="./styles/banner-carousel.css">
+		<link rel="stylesheet" href="./lib/owl/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="./lib/owl/css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="./styles/owlProducts.css">
+		<link rel="stylesheet" type="text/css" href="./styles/navCate.css">
+		<!-- <link rel="stylesheet" href="./lib/owl/css/navOwl.css"> -->
+				<!-- lib -->
+    <link rel="stylesheet" href="./lib/navres/css/normalize.min.css">
+    <link rel="stylesheet" href="./lib/navres/css/defaults.min.css">
+    <link rel="stylesheet" href="./lib/navres/css/nav-core.min.css">
+    <link rel="stylesheet" href="./lib/navres/css/nav-layout.min.css">
+ <script src="./lib/navres/js/rem.min.js"></script>
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<header>
+			<div id="wrap-full-header">
+					<div id="top-menu">
+				<div class="container">
+					<div class="top-menu-inside">
+						<div class="across-left-top">
+						<span>1900 68 88</span>
+						<span><a href="postNew.html">Đăng tin miễn phí</a></span>
+					</div>
+					<div class="across-right-top">
+						<span><i class="fa fa-user"></i>
+						<a href="login.html">Đăng nhập</a></span>
+						<span><a href="register.html">Đăng kí</a></span>
+					</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- end top menu -->
+			
+			<div id="wrap-header-search-menu">
+				<div class="category-list-icon-hidden">
+					<span><a href="#" class="nav-button">Menu</a></span>
+
+				</div>
+				<div class="container main-header">
+						<div class="search-menu-aside">	
+							<div class="icon-search-hidden">
+								<span><i class="fa fa-search"></i></span>
+							</div>
+							<div class="logo">
+								<a href="index.html">
+									<img src="./images/logo_bizmart.png" width="200px" class="img-thumbnail" alt="logo">
+								</a>
+							</div>
+							<div class="search">
+							  <div class="input-group">
+							    <input type="text" class="form-control" placeholder="Hôm nay bạn muốn mua gì?">
+							    <div class="input-group-btn">
+							      <button class="btn btn-default" type="submit">
+							        <i class="glyphicon glyphicon-search"></i>
+							      </button>
+							    </div>
+							  </div>
+							</div>
+							<div class="icon-across-header">
+									<ul>
+										<li><a href="login.html">Đăng Nhập</a></li>
+										<li><a href="register.html">Đăng Ký</a></li>
+										<li><a href="postNew.html">Đăng Tin Mới</a></li>
+									</ul>
+							</div>
+							<div class="shopping-cart">
+								<a href="shoppingCart.html"><i class="fa fa-cart-arrow-down"><span>1</span></i></a>
+							</div>
+							
+						</div>
+				</div>
+				<div class="setting-header-icon-hidden">
+					<span><i class="fa fa-chevron-down"></i></span>
+				</div>
+			</div>
+			<div class="block-info-header">
+				<ul>
+					<li><a href="login.html">Đăng Nhập</a></li>
+					<li><a href="register.html">Đăng Ký</a></li>
+					<li><a href="postNew.html">Đăng Tin Mới</a></li>
+				</ul>
+			</div>
+			<div class="category-fixed">
+				<div class="icon-delete-cate">
+					<span><!-- <i class="fa fa-times"></i> -->
+				<a href="#" class="nav-close">Close Menu</a>
+					</span>
+					
+					
+				</div>
+
+					<nav class="nav">
+						<div class="title-category-fixed">
+							<h3>Danh mục sản phẩm</h3>
+						</div>
+					    <ul>
+					        <li><a href="./products.html">Clothes</a></li>
+					        <li><a href="./products.html">Bags</a></li>
+					        <li class="nav-submenu"><a href="./products.html">Hats</a>
+					            <ul>
+					                <li><a href="./products.html">Some Service</a></li>
+					                <li><a href="./products.html">Another Service</a></li>
+					                <li><a href="./products.html">Good Service</a></li>
+					                <li><a href="./products.html">Room Service</a></li>
+					            </ul>
+					        </li>
+					        <li class="nav-submenu"><a href="./products.html">Drinks and food</a>
+					            <ul>
+					                <li><a href="./products.html">Food</a></li>
+					                <li class="nav-submenu"><a href="./products.html">Drinks</a>
+					                    <ul>
+					                        <li><a href="./products.html">Water</a></li>
+					                        <li class="nav-submenu"><a href="./products.html">Cola</a>
+					                            <ul>
+					                                <li class="nav-submenu nav-left"><a href="./products.html">Coca Cola</a>
+					                                    <ul>
+					                                        <li><a href="./products.html">This one goes left!</a></li>
+					                                        <li><a href="./products.html">Too much sugar...</a></li>
+					                                        <li><a href="./products.html">Yummy</a></li>
+					                                    </ul>
+					                                </li>
+					                                <li><a href="./products.html">Pepsi</a></li>
+					                                <li><a href="./products.html">River</a></li>
+					                            </ul>
+					                        </li>
+					                        <li><a href="./products.html">Lemonade</a></li>
+					                    </ul>
+					                </li>
+					                <li><a href="./products.html">Candy</a></li>
+					                <li><a href="./products.html">Ice Cream</a></li>
+					            </ul>
+					        </li>
+					        <li class="nav-submenu"><a href="./products.html">Albums</a>
+					            <ul>
+					                <li><a href="./products.html">Christmas</a></li>
+					                <li><a href="./products.html">New Year</a></li>
+					                <li><a href="./products.html">Easter</a></li>
+					            </ul>
+					        </li>
+					        <li><a href="./products.html">full sorce</a></li>
+					    </ul>
+					</nav>
+
+
+								
+				</div>
+			</div>
+		</header>
+		<div id="banner">
+				<div id="banner-1" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#banner-1" data-slide-to="0" class=""></li>
+						<li data-target="#banner-1" data-slide-to="1" class=""></li>
+						<li data-target="#banner-1" data-slide-to="2" class="active"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item">
+							<a href="#">
+								<img src="./images/2018-05-18531826-hinh-anh-vne.jpg" alt="banner">
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="./images/banner.jpg" alt="banner">
+							</a>
+						</div>
+						<div class="item active">
+							<a href="#">
+								<img src="./images/banner_page.jpg" alt="banner">
+							</a>
+						</div>
+						
+					</div>
+					<a class="left carousel-control" href="#banner-1" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+					<a class="right carousel-control" href="#banner-1" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+				</div>
+				
+		</div>
+
+		<div id="main">
+			<div class="container">
+				<div class="products">
+						<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+									<div class="category-products">
+											<div class="title-category-products">
+												<h3>Danh mục sản phẩm</h3>
+											</div>
+											<ul class="nav-cate">
+												<li >
+													<a href="#">Shoes</a>
+													<ul>
+														<li>
+															<a href="./products.html">Womens</a>
+															<ul>
+																<li><a href="./products.html">Sandals</a></li>
+																<li><a href="./products.html">Sneakers</a></li>
+																<li><a href="./products.html">Wedges</a></li>
+																<li><a href="./products.html">Heels</a></li>
+																<li><a href="./products.html">Loafers</a></li>
+																<li><a href="./products.html">Flats</a></li>
+															</ul>
+														</li>
+														<li>
+															<a href="./products.html">Mens</a>
+															<ul>
+																<li><a href="./products.html">Loafers</a></li>
+																<li><a href="./products.html">Sneakers</a></li>
+																<li><a href="./products.html">Formal</a>
+																	<li>
+																		<a href="./products.html">Mens2</a>
+																		<ul>
+																			<li><a href="./products.html">Loafers</a></li>
+																			<li><a href="./products.html">Sneakers</a></li>
+																			<li><a href="./products.html">Formal</a></li>
+																		</ul>
+																	</li>
+																</li>
+															</ul>
+														</li>
+			
+													</ul>
+												</li>
+												<li >
+													<a href="#">Clothos</a>
+													<ul>
+														<li>
+															<a href="./products.html">Womens</a>
+															<ul>
+																<li><a href="./products.html">Sandals</a></li>
+																<li><a href="./products.html">Sneakers</a></li>
+																<li><a href="./products.html">Wedges</a></li>
+																<li><a href="./products.html">Heels</a></li>
+																<li><a href="./products.html">Loafers</a></li>
+																<li><a href="./products.html">Flats</a></li>
+															</ul>
+														</li>
+														<li>
+															<a href="./products.html">Mens</a>
+															<ul>
+																<li><a href="./products.html">Loafers</a></li>
+																<li><a href="./products.html">Sneakers</a></li>
+																<li><a href="./products.html">Formal</a>
+																	<li>
+																		<a href="./products.html">Mens2</a>
+																		<ul>
+																			<li><a href="./products.html">Loafers</a></li>
+																			<li><a href="./products.html">Sneakers</a></li>
+																			<li><a href="./products.html">Formal</a></li>
+																		</ul>
+																	</li>
+																</li>
+															</ul>
+														</li>
+			
+													</ul>
+												</li>
+												<li >
+													<a href="#">Bag</a>
+													<ul>
+														<li>
+															<a href="./products.html">Womens</a>
+															<ul>
+																<li><a href="./products.html">Sandals</a></li>
+																<li><a href="./products.html">Sneakers</a></li>
+																<li><a href="./products.html">Wedges</a></li>
+																<li><a href="./products.html">Heels</a></li>
+																<li><a href="./products.html">Loafers</a></li>
+																<li><a href="./products.html">Flats</a></li>
+															</ul>
+														</li>
+														<li>
+															<a href="./products.html">Mens</a>
+															<ul>
+																<li><a href="./products.html">Loafers</a></li>
+																<li><a href="./products.html">Sneakers</a></li>
+																<li><a href="./products.html">Formal</a>
+																	<li>
+																		<a href="./products.html">Mens2</a>
+																		<ul>
+																			<li><a href="./products.html">Loafers</a></li>
+																			<li><a href="./products.html">Sneakers</a></li>
+																			<li><a href="./products.html">Formal</a></li>
+																		</ul>
+																	</li>
+																</li>
+															</ul>
+														</li>
+			
+													</ul>
+												</li>
+			
+												<li>
+													<a href="./products.html">Shipping Info</a>
+												</li>
+											</ul>			
+									</div>
+									
+									<div class="product-price-products">
+										<ul>
+											<li><h3>Mức Giá Sản Phẩm</h3></li>
+											<li><a href="products.html">Từ 20.000 - 50.000đ</a></li>
+											<li><a href="products.html">Từ 50.000 - 100.000đ</a></li>
+											<li><a href="products.html">Từ 100.000 - 200.000đ</a></li>
+											<li><a href="products.html">Từ 200.000 - 300.000đ</a></li>
+											<li><a href="products.html">Từ 300.000 -  500.000đ</a></li>
+											<li><a href="products.html">Từ 500.000 - 1.000.000đ</a></li>
+											
+										</ul>
+									</div>
+									<div class="banner-left">
+										<div class="banner-left-1">
+											<a href="#">
+												<img class="img-responsive" src="./images/banner-left-beauty-garden-xo-so-kieu-my.png" alt="banner">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+									<div class="main-products-right">
+										<div class="top-products-right">
+											<!-- <span class="text-right"><a href="#">Xem Thêm</a></span> -->
+											<h4>Sản Phẩm</h4>
+										</div>
+										<div class="center-products-right">
+											<div class="row">
+												<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+													<div class="thumbnail">
+														<a href="details.html"><img class="img-responsive" src="./images/hY27bh_simg_de2fe0_500x500_maxb.jpg" alt="image"></a>
+														<div class="caption">
+															<a href="details.html"><h5>Bộ quần áo nam</h5></a>
+															<p class="price">
+																<span class="price-right">120.000</span>
+																<span >240.000</span>
+															</p>
+															<div class="rating">
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star"></span>
+																<span class="fa fa-star"></span>
+															</div>
+														</div>
+													</div>
+			
+												</div>
+												<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+													<div class="thumbnail">
+														<a href="details.html"><img class="img-responsive" src="./images/gia-unlock-iphone-6(3).jpg" alt="image"></a>
+														<div class="caption">
+															<a href="details.html"><h5>Điện thoại iphone 6</h5></a>
+															<p class="price">
+																<span class="price-right">3.820.000</span>
+																<span >3.240.000</span>
+															</p>
+															<div class="rating">
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star"></span>
+																<span class="fa fa-star"></span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+													<div class="thumbnail">
+														<a href="details.html"><img class="img-responsive" src="./images/0d-1509330308416-7416.jpg" alt="image"></a>
+														<div class="caption">
+															<a href="details.html"><h5>Son 3CE chính hãng</h5></a>
+															<p class="price">
+																<span class="price-right">120.000</span>
+																<span >240.000</span>
+															</p>
+															<div class="rating">
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star"></span>
+																<span class="fa fa-star"></span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+													<div class="thumbnail">
+														<a href="details.html"><img class="img-responsive" src="./images/hY27bh_simg_de2fe0_500x500_maxb.jpg" alt="image"></a>
+														<div class="caption">
+															<a href="details.html"><h5>Bộ quần áo nam</h5></a>
+															<p class="price">
+																<span class="price-right">120.000</span>
+																<span >240.000</span>
+															</p>
+															<div class="rating">
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star"></span>
+																<span class="fa fa-star"></span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+													<div class="thumbnail">
+														<a href="details.html"><img class="img-responsive" src="./images/hY27bh_simg_de2fe0_500x500_maxb.jpg" alt="image"></a>
+														<div class="caption">
+															<a href="details.html"><h5>Bộ quần áo nam</h5></a>
+															<p class="price">
+																<span class="price-right">120.000</span>
+																<span >240.000</span>
+															</p>
+															<div class="rating">
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star"></span>
+																<span class="fa fa-star"></span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+													<div class="thumbnail">
+														<a href="details.html"><img class="img-responsive" src="./images/hY27bh_simg_de2fe0_500x500_maxb.jpg" alt="image"></a>
+														<div class="caption">
+															<a href="details.html"><h5>Bộ quần áo nam</h5></a>
+															<p class="price">
+																<span class="price-right">120.000</span>
+																<span >240.000</span>
+															</p>
+															<div class="rating">
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star"></span>
+																<span class="fa fa-star"></span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+													<div class="thumbnail">
+														<a href="details.html"><img class="img-responsive" src="./images/hY27bh_simg_de2fe0_500x500_maxb.jpg" alt="image"></a>
+														<div class="caption">
+															<a href="details.html"><h5>Bộ quần áo nam</h5></a>
+															<p class="price">
+																<span class="price-right">120.000</span>
+																<span >240.000</span>
+															</p>
+															<div class="rating">
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star"></span>
+																<span class="fa fa-star"></span>
+															</div>
+														</div>
+													</div>
+			
+												</div>
+												<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+													<div class="thumbnail">
+														<a href="details.html"><img class="img-responsive" src="./images/gia-unlock-iphone-6(3).jpg" alt="image"></a>
+														<div class="caption">
+															<a href="details.html"><h5>Điện thoại iphone 6</h5></a>
+															<p class="price">
+																<span class="price-right">3.820.000</span>
+																<span >3.240.000</span>
+															</p>
+															<div class="rating">
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star"></span>
+																<span class="fa fa-star"></span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+													<div class="thumbnail">
+														<a href="details.html"><img class="img-responsive" src="./images/0d-1509330308416-7416.jpg" alt="image"></a>
+														<div class="caption">
+															<a href="details.html"><h5>Son 3CE chính hãng</h5></a>
+															<p class="price">
+																<span class="price-right">120.000</span>
+																<span >240.000</span>
+															</p>
+															<div class="rating">
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star"></span>
+																<span class="fa fa-star"></span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+													<div class="thumbnail">
+														<a href="details.html"><img class="img-responsive" src="./images/hY27bh_simg_de2fe0_500x500_maxb.jpg" alt="image"></a>
+														<div class="caption">
+															<a href="details.html"><h5>Bộ quần áo nam</h5></a>
+															<p class="price">
+																<span class="price-right">120.000</span>
+																<span >240.000</span>
+															</p>
+															<div class="rating">
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star"></span>
+																<span class="fa fa-star"></span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+													<div class="thumbnail">
+														<a href="details.html"><img class="img-responsive" src="./images/hY27bh_simg_de2fe0_500x500_maxb.jpg" alt="image"></a>
+														<div class="caption">
+															<a href="details.html"><h5>Bộ quần áo nam</h5></a>
+															<p class="price">
+																<span class="price-right">120.000</span>
+																<span >240.000</span>
+															</p>
+															<div class="rating">
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star"></span>
+																<span class="fa fa-star"></span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+													<div class="thumbnail">
+														<a href="details.html"><img class="img-responsive" src="./images/hY27bh_simg_de2fe0_500x500_maxb.jpg" alt="image"></a>
+														<div class="caption">
+															<a href="details.html"><h5>Bộ quần áo nam</h5></a>
+															<p class="price">
+																<span class="price-right">120.000</span>
+																<span >240.000</span>
+															</p>
+															<div class="rating">
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star"></span>
+																<span class="fa fa-star"></span>
+															</div>
+														</div>
+													</div>
+												</div>
+												
+											</div>
+										</div>
+									</div>
+							<!-- end main product-right -->
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<div class="products-hot-sale">
+										<div class="top-products-right">
+											<h4>Sản phẩm bán chạy</h4>
+										</div>
+										<div class="owl-carousel owl-sale">
+											<div class="thumbnail">
+												<a href="details.html"><img class="img-responsive" src="./images/hY27bh_simg_de2fe0_500x500_maxb.jpg" alt="image"></a>
+												<div class="caption">
+													<a href="details.html"><h5>Bộ quần áo nam</h5></a>
+													<p class="price">
+														<span class="price-right">120.000</span>
+														<span >240.000</span>
+													</p>
+													<div class="rating">
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star"></span>
+														<span class="fa fa-star"></span>
+													</div>
+												</div>
+											</div>
+											<div class="thumbnail">
+												<a href="details.html"><img class="img-responsive" src="./images/hY27bh_simg_de2fe0_500x500_maxb.jpg" alt="image"></a>
+												<div class="caption">
+													<a href="details.html"><h5>Bộ quần áo nam</h5></a>
+													<p class="price">
+														<span class="price-right">120.000</span>
+														<span >240.000</span>
+													</p>
+													<div class="rating">
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star"></span>
+														<span class="fa fa-star"></span>
+													</div>
+												</div>
+											</div>
+											<div class="thumbnail">
+												<a href="details.html"><img class="img-responsive" src="./images/hY27bh_simg_de2fe0_500x500_maxb.jpg" alt="image"></a>
+												<div class="caption">
+													<a href="details.html"><h5>Bộ quần áo nam</h5></a>
+													<p class="price">
+														<span class="price-right">120.000</span>
+														<span >240.000</span>
+													</p>
+													<div class="rating">
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star"></span>
+														<span class="fa fa-star"></span>
+													</div>
+												</div>
+											</div>
+											<div class="thumbnail">
+												<a href="details.html"><img class="img-responsive" src="./images/hY27bh_simg_de2fe0_500x500_maxb.jpg" alt="image"></a>
+												<div class="caption">
+													<a href="details.html"><h5>Bộ quần áo nam</h5></a>
+													<p class="price">
+														<span class="price-right">120.000</span>
+														<span >240.000</span>
+													</p>
+													<div class="rating">
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star"></span>
+														<span class="fa fa-star"></span>
+													</div>
+												</div>
+											</div>
+											<div class="thumbnail">
+												<a href="details.html"><img class="img-responsive" src="./images/hY27bh_simg_de2fe0_500x500_maxb.jpg" alt="image"></a>
+												<div class="caption">
+													<a href="details.html"><h5>Bộ quần áo nam</h5></a>
+													<p class="price">
+														<span class="price-right">120.000</span>
+														<span >240.000</span>
+													</p>
+													<div class="rating">
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star"></span>
+														<span class="fa fa-star"></span>
+													</div>
+												</div>
+											</div>
+											<div class="thumbnail">
+												<a href="details.html"><img class="img-responsive" src="./images/hY27bh_simg_de2fe0_500x500_maxb.jpg" alt="image"></a>
+												<div class="caption">
+													<a href="details.html"><h5>Bộ quần áo nam</h5></a>
+													<p class="price">
+														<span class="price-right">120.000</span>
+														<span >240.000</span>
+													</p>
+													<div class="rating">
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star"></span>
+														<span class="fa fa-star"></span>
+													</div>
+												</div>
+											</div>
+											<div class="thumbnail">
+												<a href="details.html"><img class="img-responsive" src="./images/hY27bh_simg_de2fe0_500x500_maxb.jpg" alt="image"></a>
+												<div class="caption">
+													<a href="details.html"><h5>Bộ quần áo nam</h5></a>
+													<p class="price">
+														<span class="price-right">120.000</span>
+														<span >240.000</span>
+													</p>
+													<div class="rating">
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star"></span>
+														<span class="fa fa-star"></span>
+													</div>
+												</div>
+											</div>
+			
+											<div class="thumbnail">
+												<a href="details.html"><img class="img-responsive" src="./images/hY27bh_simg_de2fe0_500x500_maxb.jpg" alt="image"></a>
+												<div class="caption">
+													<a href="details.html"><h5>Bộ quần áo nam</h5></a>
+													<p class="price">
+														<span class="price-right">120.000</span>
+														<span >240.000</span>
+													</p>
+													<div class="rating">
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star"></span>
+														<span class="fa fa-star"></span>
+													</div>
+												</div>
+											</div>	
+										</div>
+									</div>
+									
+								</div>
+							</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<footer>
+			<div class="top-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="owl-carousel owl-two">
+								<div class="item">
+									<a href="#"><img src="./images/logo_aliki.png" alt="logo"></a>
+								</div>
+								<div class="item">
+									<a href="#"><img src="./images/logo_holding.png" alt="logo"></a>
+								</div>
+								<div class="item">
+									<a href="#"><img src="./images/logo_aliki.png" alt="logo"></a>
+								</div>
+								<div class="item">
+									<a href="#"><img src="./images/logo_holding.png" alt="logo"></a>
+								</div>
+								<div class="item">
+									<a href="#"><img src="./images/logo_aliki.png" alt="logo"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+			<div class="info-main-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 wrap-info-main-footer-inside">
+							<div class="title-display-footer title-info-main-footer1">
+								<h2>Giới thiệu</h2>
+							</div>
+							<ul class="info-display-main-footer block-info-footer-li1">
+								<li><a href="#">Về chúng tôi</a></li>
+								<li><a href="#">Dịch vụ cung cấp</a></li>
+								<li><a href="#">Quy định sử dụng</a></li>
+								<li><a href="contact.html">Thông tin liên hệ</a></li>
+								
+							</ul>
+
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 wrap-info-main-footer-inside">
+							<div class="title-display-footer title-info-main-footer2">
+								<h2>Hỗ trợ khách hàng</h2>
+							</div>
+							<ul class="info-display-main-footer block-info-footer-li2">
+								<li><a href="#">Hướng dẫn mua hàng</a></li>
+								<li><a href="#">Chính sách giao hàng</a></li>
+								<li><a href="#">Bảo mật thông tin</a></li>
+								<li><a href="#">Bảo hành sản phẩm</a></li>
+								
+							</ul>
+
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 wrap-info-main-footer-inside">
+							<div class="title-display-footer title-info-main-footer3">
+								<h2>Tin tức</h2>
+							</div>
+							<ul class="info-display-main-footer block-info-footer-li3">
+								<li><a href="#">Khuyến mãi</a></li>
+								<li><a href="#">Tin tức</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="icon-social text-right">
+								<a href="#"><i class="fa fa-facebook-square"></i></a>
+								<a href="#"><i class="fa fa-twitter-square"></i></a>
+								<a href="#"><i class="fa fa-google-plus-square"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>					
+			</div>
+			<div class="block-info-contact-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+							<div class="info-contact-footer">
+								<p>Công ty TNHH thương mại Bizmart Việt Nam</p>
+								<p>Địa chỉ: Số 21, Lê Đức Thọ, Nam Từ Liêm, Hà Nội</p>
+								<p>Hotline: 1900 68 88</p>
+								<p>Email: trangbizmart@gmail.com</p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+							<div class="email-footer">
+								<input type="email" placeholder="Nhập email của bạn">
+								<button>Đăng kí</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="empty-last-footer"></div>
+		</footer>
+		
+		<!-- jQuery -->
+		<script
+		  src="https://code.jquery.com/jquery-2.2.4.js"
+		  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+		  crossorigin="anonymous"></script>
+		   <script src="./js/styles.js"></script>
+		   <script type="text/javascript" src="./js/navScript.js"></script>
+		  <script src="./lib/navres/js/nav.jquery.min.js"></script>
+			<script>
+			    $('.nav').nav();
+			</script>
+		  <script src="./lib/owl/js/config-owl.js"></script>
+		  <script src="./lib/owl/js/owl.carousel.min.js"></script>
+
+		<!-- Bootstrap JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	</body>
+</html>

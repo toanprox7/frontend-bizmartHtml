@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ShoppingCart</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<!-- <link rel="stylesheet" href="./styles/style.css">
+		 -->
+		 <link rel="stylesheet" href="./styles/header.css">
+		 <link rel="stylesheet" href="./styles/footer.css">
+		 <link rel="stylesheet" href="./lib/owl/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="./lib/owl/css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="./styles/owlProducts.css">
+		<link rel="stylesheet" href="./styles/shoppingcart.css">
+		<!-- <link rel="stylesheet" href="./lib/owl/css/navOwl.css"> -->
+				<!-- lib -->
+    <link rel="stylesheet" href="./lib/navres/css/normalize.min.css">
+    <link rel="stylesheet" href="./lib/navres/css/defaults.min.css">
+    <link rel="stylesheet" href="./lib/navres/css/nav-core.min.css">
+    <link rel="stylesheet" href="./lib/navres/css/nav-layout.min.css">
+ <script src="./lib/navres/js/rem.min.js"></script>
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<header>
+			<div id="wrap-full-header">
+					<div id="top-menu">
+				<div class="container">
+					<div class="top-menu-inside">
+						<div class="across-left-top">
+						<span>1900 68 88</span>
+						<span><a href="postNew.html">Đăng tin miễn phí</a></span>
+					</div>
+					<div class="across-right-top">
+						<span><i class="fa fa-user"></i>
+						<a href="login.html">Đăng nhập</a></span>
+						<span><a href="register.html">Đăng kí</a></span>
+					</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- end top menu -->
+			
+			<div id="wrap-header-search-menu">
+				<div class="category-list-icon-hidden">
+					<span><a href="#" class="nav-button">Menu</a></span>
+
+				</div>
+				<div class="container main-header">
+						<div class="search-menu-aside">	
+							<div class="icon-search-hidden">
+								<span><i class="fa fa-search"></i></span>
+							</div>
+							<div class="logo">
+								<a href="index.html">
+									<img src="./images/logo_bizmart.png" width="200px" class="img-thumbnail" alt="logo">
+								</a>
+							</div>
+							<div class="search">
+							  <div class="input-group">
+							    <input type="text" class="form-control" placeholder="Hôm nay bạn muốn mua gì?">
+							    <div class="input-group-btn">
+							      <button class="btn btn-default" type="submit">
+							        <i class="glyphicon glyphicon-search"></i>
+							      </button>
+							    </div>
+							  </div>
+							</div>
+							<div class="icon-across-header">
+									<ul>
+										<li><a href="login.html">Đăng Nhập</a></li>
+										<li><a href="register.html">Đăng Ký</a></li>
+										<li><a href="postNew.html">Đăng Tin Mới</a></li>
+									</ul>
+							</div>
+							<div class="shopping-cart">
+								<a href="shoppingCart.html"><i class="fa fa-cart-arrow-down"><span>1</span></i></a>
+							</div>
+							
+						</div>
+				</div>
+				<div class="setting-header-icon-hidden">
+					<span><i class="fa fa-chevron-down"></i></span>
+				</div>
+			</div>
+			<div class="block-info-header">
+				<ul>
+					<li><a href="login.html">Đăng Nhập</a></li>
+					<li><a href="register.html">Đăng Ký</a></li>
+					<li><a href="postNew.html">Đăng Tin Mới</a></li>
+				</ul>
+			</div>
+			<div class="category-fixed">
+				<div class="icon-delete-cate">
+					<span><!-- <i class="fa fa-times"></i> -->
+				<a href="#" class="nav-close">Close Menu</a>
+					</span>
+					
+					
+				</div>
+
+				<nav class="nav">
+						<div class="title-category-fixed">
+							<h3>Danh mục sản phẩm</h3>
+						</div>
+					    <ul>
+					        <li><a href="./products.html">Clothes</a></li>
+					        <li><a href="./products.html">Bags</a></li>
+					        <li class="nav-submenu"><a href="./products.html">Hats</a>
+					            <ul>
+					                <li><a href="./products.html">Some Service</a></li>
+					                <li><a href="./products.html">Another Service</a></li>
+					                <li><a href="./products.html">Good Service</a></li>
+					                <li><a href="./products.html">Room Service</a></li>
+					            </ul>
+					        </li>
+					        <li class="nav-submenu"><a href="./products.html">Drinks and food</a>
+					            <ul>
+					                <li><a href="./products.html">Food</a></li>
+					                <li class="nav-submenu"><a href="./products.html">Drinks</a>
+					                    <ul>
+					                        <li><a href="./products.html">Water</a></li>
+					                        <li class="nav-submenu"><a href="./products.html">Cola</a>
+					                            <ul>
+					                                <li class="nav-submenu nav-left"><a href="./products.html">Coca Cola</a>
+					                                    <ul>
+					                                        <li><a href="./products.html">This one goes left!</a></li>
+					                                        <li><a href="./products.html">Too much sugar...</a></li>
+					                                        <li><a href="./products.html">Yummy</a></li>
+					                                    </ul>
+					                                </li>
+					                                <li><a href="./products.html">Pepsi</a></li>
+					                                <li><a href="./products.html">River</a></li>
+					                            </ul>
+					                        </li>
+					                        <li><a href="./products.html">Lemonade</a></li>
+					                    </ul>
+					                </li>
+					                <li><a href="./products.html">Candy</a></li>
+					                <li><a href="./products.html">Ice Cream</a></li>
+					            </ul>
+					        </li>
+					        <li class="nav-submenu"><a href="./products.html">Albums</a>
+					            <ul>
+					                <li><a href="./products.html">Christmas</a></li>
+					                <li><a href="./products.html">New Year</a></li>
+					                <li><a href="./products.html">Easter</a></li>
+					            </ul>
+					        </li>
+					        <li><a href="./products.html">full sorce</a></li>
+					    </ul>
+					</nav>
+
+
+								
+				</div>
+			<hr class="across-red-header">
+			</div>
+		</header>
+		<div id="main">
+			<div class="container">
+				<div class="shopping-cart-body">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+							<div class="shopping-cart-body-left">
+								<div class="select-all">
+									<div class="checkbox-cart">
+										<label>
+										  <input type="checkbox" checked="checked">
+										  <span class="checkmark"></span>
+										</label>	
+									</div>
+									
+									<span>Chọn tất cả</span><span class="cart-sp-small">(2 sản phẩm)</span>
+								</div>
+								
+								<div class="list-product-cart">
+									<div class="item-product-cart">
+										<div class="checkbox-cart">
+											<label>
+											  <input type="checkbox" checked="checked">
+											  <span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="img-cart">
+											<a href="details.html"><img src="./images/ilq0DO_simg_de2fe0_500x500_maxb.jpg" alt="anh sp"></a>
+										</div>
+										<div class="block-info-cart">
+											<div class="title-product-cart">
+												<p>Áo Khoác Unisex ( CÓ HINH THAT) Kiểu Dáng Sơ Mi Caro thun áo bộ thun xám.</p>
+											</div>
+											<div class="features-cart">
+												<div class="icon-feature">
+													<i class="fa fa-commenting-o"></i>
+													<i class="fa fa-heart"></i>
+													<i class="fa fa-trash-o"></i>
+												</div>
+												<div class="total-money-count">
+													<div class="new-price-cart">
+														<span>130.000đ</span>
+													</div>
+													<div class="old-price-cart">
+														<span>130.000đ</span>
+													</div>
+													<div class="count-cart">
+														<div class="decrement">
+															<span>-</span>
+														</div>
+
+														<span class="count-of-cart">2</span>
+														<div class="increment">
+															<span>+</span>
+														</div>
+														
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+									<div class="item-product-cart">
+										<div class="checkbox-cart">
+											<label>
+											  <input type="checkbox" checked="checked">
+											  <span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="img-cart">
+											<a href="details.html"><img src="./images/hY27bh_simg_de2fe0_500x500_maxb.jpg" alt="anh sp"></a>
+											
+										</div>
+										<div class="block-info-cart">
+											<div class="title-product-cart">
+												<p>Áo Khoác Unisex ( CÓ HINH THAT) Kiểu Dáng Sơ Mi Caro thun áo bộ thun xám</p>
+											</div>
+											<div class="features-cart">
+												<div class="icon-feature">
+													<i class="fa fa-commenting-o"></i>
+													<i class="fa fa-heart"></i>
+													<i class="fa fa-trash-o"></i>
+												</div>
+												<div class="total-money-count">
+													<div class="new-price-cart">
+														<span>130.000đ</span>
+													</div>
+													<div class="old-price-cart">
+														<span>130.000đ</span>
+													</div>
+													<div class="count-cart">
+														<div class="decrement">
+															<span>-</span>
+														</div>
+
+														<span class="count-of-cart">2</span>
+														<div class="increment">
+															<span>+</span>
+														</div>
+														
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+									<div class="item-product-cart">
+										<div class="checkbox-cart">
+											<label>
+											  <input type="checkbox" checked="checked">
+											  <span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="img-cart">
+											<a href="details.html"><img src="./images/189789dacnhantambody_2_2mr0gpfamp6f8.jpg" alt="anh sp"></a>
+										</div>
+										<div class="block-info-cart">
+											<div class="title-product-cart">
+												<p>Áo Khoác Unisex ( CÓ HINH THAT) Kiểu Dáng Sơ Mi Caro thun áo bộ thun xám.</p>
+											</div>
+											<div class="features-cart">
+												<div class="icon-feature">
+													<i class="fa fa-commenting-o"></i>
+													<i class="fa fa-heart"></i>
+													<i class="fa fa-trash-o"></i>
+												</div>
+												<div class="total-money-count">
+													<div class="new-price-cart">
+														<span>130.000đ</span>
+													</div>
+													<div class="old-price-cart">
+														<span>130.000đ</span>
+													</div>
+													<div class="count-cart">
+														<div class="decrement">
+															<span>-</span>
+														</div>
+
+														<span class="count-of-cart">2</span>
+														<div class="increment">
+															<span>+</span>
+														</div>
+														
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+									<div class="item-product-cart">
+										<div class="checkbox-cart">
+											<label>
+											  <input type="checkbox" checked="checked">
+											  <span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="img-cart">
+											<a href="details.html"><img src="./images/189789dacnhantambody_2_2mr0gpfamp6f8.jpg" alt="anh sp"></a>
+										</div>
+										<div class="block-info-cart">
+											<div class="title-product-cart">
+												<p>Áo Khoác Unisex ( CÓ HINH THAT) Kiểu Dáng Sơ Mi Caro thun áo bộ thun xám.</p>
+											</div>
+											<div class="features-cart">
+												<div class="icon-feature">
+													<i class="fa fa-commenting-o"></i>
+													<i class="fa fa-heart"></i>
+													<i class="fa fa-trash-o"></i>
+												</div>
+												<div class="total-money-count">
+													<div class="new-price-cart">
+														<span>130.000đ</span>
+													</div>
+													<div class="old-price-cart">
+														<span>130.000đ</span>
+													</div>
+													<div class="count-cart">
+														<div class="decrement">
+															<span>-</span>
+														</div>
+
+														<span class="count-of-cart">2</span>
+														<div class="increment">
+															<span>+</span>
+														</div>
+														
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+							<div class="pay-method-cart">
+								<div class="title-pay-method">
+									<h3>Phương thức thanh toán</h3>
+								</div>
+								<div class="info-total">
+									<p><span class="left-info-total">Số lượng:</span> <span class="right-info-total">(2 SP)</span></p>
+									<p><span class="left-info-total">Tổng tiền hàng:</span> <span class="right-info-total">130.000 đ</span></p>
+									<p><span class="left-info-total">Phí dịch vụ:</span> <span class="right-info-total">20.000 đ</span></p>
+									<p class="last-info"><span <span class="left-info-total">Tổng thanh toán:</span> <span class="right-total-pay">150.000 đ</span></p>
+									<div class="place-an-order text-center">
+										<button>Đặt mua hàng</button>
+									</div>
+									
+								</div>
+								<div class="info-address-buy">
+									<h3><i class="fa fa-map-marker"></i> Địa chỉ nhận hàng:</h3>
+									<p class="name-buy">Nguyễn Văn Thảo (036.8123.612)</p>
+									<p class="address-buy">Ngõ 58, trần bình, Cầu giấy, Hà nội</p>
+									<a href="#" class="change-info-buyer">Thay Đổi</a>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<div class="top-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="owl-carousel owl-two">
+								<div class="item">
+									<a href="#"><img src="./images/logo_aliki.png" alt="logo"></a>
+								</div>
+								<div class="item">
+									<a href="#"><img src="./images/logo_holding.png" alt="logo"></a>
+								</div>
+								<div class="item">
+									<a href="#"><img src="./images/logo_aliki.png" alt="logo"></a>
+								</div>
+								<div class="item">
+									<a href="#"><img src="./images/logo_holding.png" alt="logo"></a>
+								</div>
+								<div class="item">
+									<a href="#"><img src="./images/logo_aliki.png" alt="logo"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+			<div class="info-main-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 wrap-info-main-footer-inside">
+							<div class="title-display-footer title-info-main-footer1">
+								<h2>Giới thiệu</h2>
+							</div>
+							<ul class="info-display-main-footer block-info-footer-li1">
+								<li><a href="#">Về chúng tôi</a></li>
+								<li><a href="#">Dịch vụ cung cấp</a></li>
+								<li><a href="#">Quy định sử dụng</a></li>
+								<li><a href="contact.html">Thông tin liên hệ</a></li>
+								
+							</ul>
+
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 wrap-info-main-footer-inside">
+							<div class="title-display-footer title-info-main-footer2">
+								<h2>Hỗ trợ khách hàng</h2>
+							</div>
+							<ul class="info-display-main-footer block-info-footer-li2">
+								<li><a href="#">Hướng dẫn mua hàng</a></li>
+								<li><a href="#">Chính sách giao hàng</a></li>
+								<li><a href="#">Bảo mật thông tin</a></li>
+								<li><a href="#">Bảo hành sản phẩm</a></li>
+								
+							</ul>
+
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 wrap-info-main-footer-inside">
+							<div class="title-display-footer title-info-main-footer3">
+								<h2>Tin tức</h2>
+							</div>
+							<ul class="info-display-main-footer block-info-footer-li3">
+								<li><a href="#">Khuyến mãi</a></li>
+								<li><a href="#">Tin tức</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="icon-social text-right">
+								<a href="#"><i class="fa fa-facebook-square"></i></a>
+								<a href="#"><i class="fa fa-twitter-square"></i></a>
+								<a href="#"><i class="fa fa-google-plus-square"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>					
+			</div>
+			<div class="block-info-contact-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+							<div class="info-contact-footer">
+								<p>Công ty TNHH thương mại Bizmart Việt Nam</p>
+								<p>Địa chỉ: Số 21, Lê Đức Thọ, Nam Từ Liêm, Hà Nội</p>
+								<p>Hotline: 1900 68 88</p>
+								<p>Email: trangbizmart@gmail.com</p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+							<div class="email-footer">
+								<input type="email" placeholder="Nhập email của bạn">
+								<button>Đăng kí</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="empty-last-footer"></div>
+		</footer>
+		
+		<!-- jQuery -->
+		<script
+		  src="https://code.jquery.com/jquery-2.2.4.js"
+		  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+		  crossorigin="anonymous"></script>
+		    <script src="./js/styles.js"></script>
+		  <script src="./lib/navres/js/nav.jquery.min.js"></script>
+			<script>
+			    $('.nav').nav();
+			</script>
+		<script src="./lib/owl/js/config-owl.js"></script>
+		  <script src="./lib/owl/js/owl.carousel.min.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	</body>
+</html>
